@@ -49,5 +49,6 @@
 		</plugins>
 		<finalName>stsdemo</finalName>
 	</build>
+	<packaging>jar</packaging>
 
 </project>

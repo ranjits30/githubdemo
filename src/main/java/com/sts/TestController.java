@@ -8,10 +8,10 @@ import org.springframework.web.bind.annotation.ResponseBody;
 public class TestController {
 
 	@RequestMapping("/home")
-	//@ResponseBody
+	@ResponseBody
 	public String handletest() {
-		return "home";
-	//	return "this is the page first by Boot";
+		//return "home";
+		return "this is the page first by Boot";
 	}
 	
 }
